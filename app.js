@@ -57,7 +57,6 @@ function reiniciarJogo(){
     tentativas = 1;
     numeroSecreto = gerarNumeroAleatorio();
     exibirMensagemInicial()
-    console.log(numeroSecreto);
     document.getElementById(`reiniciar`).setAttribute(`disabled`, true);
     marcação++
 }
